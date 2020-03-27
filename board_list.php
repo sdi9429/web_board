@@ -18,7 +18,7 @@
             }
  
             //mysqli_connect()함수로 커넥션 객체 생성
-            $conn = mysqli_connect("localhost", "root", "password","sampledb");
+            $conn = mysqli_connect("localhost", "sample", "password","sampledb");
             //커넥션 객체 생성 확인
             if($conn) {
                 echo "연결 성공<br>";
